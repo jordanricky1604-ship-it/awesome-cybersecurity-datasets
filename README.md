@@ -84,7 +84,6 @@ Happy learning!
 - [500K HTTP Headers](https://hackertarget.com/500k-http-headers/) - Recently we crawled the Top 500K sites (as ranked by Alexa). Following requests from readers we are making available the HTTP Headers for research purposes.
 - [HTTP DATASET CSIC 2010](http://web.archive.org/web/20130924222653/http://iec.csic.es/dataset) - The HTTP dataset CSIC 2010 contains thousands of web requests automatically generated. It can be used for the testing of web attack protection systems. It was developed at the Information Security Institute of CSIC (Spanish Research National Council).
 - [OpenAppSec WAF Comparison Dataset](https://github.com/openappsec/openappsec) - A modern dataset of millions of requests and tens of thousands of malicious payloads explicitly designed to test modern WAF evasion techniques.
-- [30-Day ModSecurity Production Dataset](https://github.com/hslatman/awesome-industrial-control-system-security) - Real malicious HTTP requests blocked by the OWASP ModSecurity Core Rule Set (CRS) on a live production server.
 - [Common Crawl](http://commoncrawl.org/the-data/get-started/) - The Common Crawl corpus contains petabytes of data collected over the last 7 years. It contains raw web page data, extracted metadata and text extractions.
 - [AZSecure-data](https://www.azsecure-data.org/get-data.html) - The AZSecure-data PORTAL currently provides access to Web forums, Internet phishing websites, Twitter data, and other data.
 
@@ -92,7 +91,7 @@ Happy learning!
 - [Malicious URLs Dataset](http://www.sysnet.ucsd.edu/projects/url/) - The data set consists of about 2.4 million URLs (examples) and 3.2 million features.
 - [Feodo Tracker](https://feodotracker.abuse.ch/) - List of Feodo botnet C&C servers.
 - [URLhaus](https://urlhaus.abuse.ch/api/) - A project from abuse.ch with the goal of sharing malicious URLs that are being used for malware distribution.
-- [Alexa Top 1 Million](http://s3.amazonaws.com/alexa-static/top-1m.csv.zip) - CSV dataset with the most popular sites by Alexa.
+- [Alexa Top 1 Million](https://s3.amazonaws.com/alexa-static/top-1m.csv.zip) - CSV dataset with the most popular sites by Alexa.
 - [Tranco List](https://tranco-list.eu/) - The modern academic standard replacing Alexa. It provides a hardened, daily-updated ranking by aggregating Cloudflare, Chrome UX, and other sources to prevent manipulation.
 - [Cloudflare Radar Domain Rankings](https://radar.cloudflare.com/domains) - Based on live 1.1.1.1 resolver data, highly relevant for modern traffic popularity.
 - [OpenDNS Top Domains List](https://github.com/opendns/public-domain-lists) - The OpenDNS Top Domains List is the top 10,000 domain names our resolvers all over the globe are receiving queries for, sorted by popularity.
@@ -100,21 +99,20 @@ Happy learning!
 
 ### Host
 - [The ADFA Intrusion Detection Datasets](https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-IDS-Datasets/) - This dataset provides a contemporary Linux dataset for evaluation by traditional HIDS. This dataset provides a contemporary Windows dataset for evaluation by HIDS.
-- [Public Security Log Sharing Site](http://log-sharing.dreamhosters.com/) - This site contains various free shareable log samples from various systems, security and network devices, applications, etc. The logs are collected from real systems, some contain evidence of compromise and other malicious activity. Wherever possible, the logs are NOT sanitized, anonymized or modified in any way (just as they came from the logging system).
+- [Public Security Log Sharing Site](https://log-sharing.dreamhosters.com/) - This site contains various free shareable log samples from various systems, security and network devices, applications, etc. The logs are collected from real systems, some contain evidence of compromise and other malicious activity. Wherever possible, the logs are NOT sanitized, anonymized or modified in any way (just as they came from the logging system).
 - [Aktaion2 Data](https://github.com/jzadeh/aktaion2/tree/master/data) - The project is meant to be a learning/teaching tool on how to blend multiple security signals and behaviors into an expressive framework for intrusion detection.
 
 ### Email
-- [The Enron Email Corpus](http://www.cs.cmu.edu/~enron/) - The absolute foundation for digital forensics, e-discovery, and insider-threat detection. Contains half a million emails from Enron executives prior to the company's collapse.
+- [The Enron Email Corpus](https://www.cs.cmu.edu/~enron/) - The absolute foundation for digital forensics, e-discovery, and insider-threat detection. Contains half a million emails from Enron executives prior to the company's collapse.
 
 ### Fraud
 - [Credit Card Fraud](https://www.kaggle.com/samkirkiles/credit-card-fraud/data) - The datasets contains transactions made by credit cards in September 2013 by european cardholders. This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
 
 ### Honeypots
-- [DDS Dataset Collection](http://datadrivensecurity.info/blog/pages/dds-dataset-collection.html) - A tar/gzip CSV file from a collection of AWS honeypots. A zip CSV file of domains and a high level classification of dga or legit along with a subclass of either legit, cryptolocker, gox or newgoz.
+- [DDS Dataset Collection](https://datadrivensecurity.info/blog/pages/dds-dataset-collection.html) - A tar/gzip CSV file from a collection of AWS honeypots. A zip CSV file of domains and a high level classification of dga or legit along with a subclass of either legit, cryptolocker, gox or newgoz.
 - [Threat_Research](https://github.com/JonathanPhillips/Threat_Research) - Centralized repository to dump threat research data gathered from my network of honeypots.
 
 ### Binaries
-- [The ember dataset](https://github.com/endgameinc/ember) - A collection of 1.1 million sha256 hashes from PE files that were scanned sometime in 2017. This repository makes it easy to reproducibly train the benchmark model, extend the provided feature set, or classify new PE files with the benchmark model.
 
 ### Phishing
 - [Phishing Websites Data Set](https://archive.ics.uci.edu/ml/datasets/phishing+websites#) - In this dataset, we shed light on the important features that have proved to be sound and effective in predicting phishing websites. In addition, we propose some new features.
@@ -125,7 +123,7 @@ Happy learning!
 - [Have I Been Pwned (Pwned Passwords)](https://haveibeenpwned.com/Passwords) - The industry-standard k-anonymity dataset for checking breached credentials securely without exposing passwords.
 
 ### MISC
-- [SecRepo](http://www.secrepo.com/) - Samples of Security Related Data.
+- [SecRepo](https://www.secrepo.com/) - Samples of Security Related Data.
 
 
 ### Generative AI & LLM Security
@@ -133,7 +131,7 @@ Happy learning!
 - [JailbreakBench](https://github.com/JailbreakBench/JailbreakBench) - The industry-standard repository for tracking state-of-the-art LLM jailbreaks and defenses. Features a continuously updated dataset of adversarial prompts.
 - [LLM Jailbreak Taxonomy & Simulation](https://github.com/zakky8/llm-jailbreak-taxonomy) - Contains a taxonomy of 40 modern adversarial attack patterns, experiment notebooks, and simulation harnesses calibrated to 2025-2026 attack success rates.
 - [Jailbreak_LLMs](https://github.com/verazuo/jailbreak_llms) - A massive, highly-cited dataset of 15,140 prompts in the wild, including 1,405 specifically categorized as jailbreak prompts.
-- [Awesome-Jailbreak-on-LLMs](https://github.com/jelliezhong/Awesome-Jailbreak-on-LLMs) - An actively maintained, curated list of research papers, defense frameworks, and detection methods for modern LLMs.
+- [Awesome-Jailbreak-on-LLMs](https://github.com/yueliu1999/Awesome-Jailbreak-on-LLMs) - An actively maintained, curated list of research papers, defense frameworks, and detection methods for modern LLMs.
 - [CIC-SBAN Datasets 2025](https://www.unb.ca/cic/datasets/#sban-2025) - A modern dataset from the Canadian Institute for Cybersecurity focusing specifically on Large Language Model (LLM) security, prompt injection payloads, and model extraction attacks.
 
 ### Modern Malware Benchmarks
@@ -146,10 +144,9 @@ Happy learning!
 - [Kubernetes Dataset](https://github.com/yigitsever/kubernetes-dataset) - Network flow data of CVE exploits and container escapes in Kubernetes clusters.
 - [Cloud Monitoring Dataset](https://github.com/microsoft/cloud-monitoring-dataset) - Microsoft's massive cloud telemetry dataset for anomaly detection.
 - [Mordor](https://github.com/OTRF/mordor) - The Mordor project provides pre-recorded, high-quality security events (JSON) generated by simulated adversarial techniques, heavily featuring cloud environments (AWS/Azure).
-- [Flaws.cloud Logs](http://flaws.cloud/) - Log datasets from the famous AWS security challenges, providing real-world CloudTrail and S3 access logs of cloud compromise.
+- [Flaws.cloud Logs](https://flaws.cloud/) - Log datasets from the famous AWS security challenges, providing real-world CloudTrail and S3 access logs of cloud compromise.
 
 ### Software Supply Chain
-- [Backstabber's Knife Collection](https://github.com/das-group/bsk-dataset) - A curated dataset of open-source software supply chain attacks, containing malicious packages collected from NPM, PyPI, and RubyGems.
 
 
 ### Governance, Risk, and Compliance (C-Suite)
@@ -164,7 +161,6 @@ Happy learning!
 ### Automotive & IoT Security
 - [IoT-23 Dataset](https://www.stratosphereips.org/datasets-iot23) - A massive benchmark consisting of 20 malicious PCAP captures of real IoT malware (like Mirai and Torii) executing on actual IoT hardware, plus 3 benign captures.
 - [CIC-YNU-IoTMal 2026](https://www.unb.ca/cic/datasets/iotmal-2026.html) - A state-of-the-art IoT malware dataset capturing network traffic and host-based telemetry for emerging IoT threats in edge environments.
-- [Car-Hacking-Dataset](https://github.com/ocslab/car-hacking-dataset) - Famous CAN bus intrusion detection dataset featuring DoS, fuzzy, and spoofing attacks.
 
 ### Threat Intelligence & Vulnerability Data
 - [CISA Known Exploited Vulnerabilities (KEV) Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) - The authoritative, constantly updated dataset of CVEs that carry active, real-world exploitation evidence. Essential for vulnerability prioritization research.
@@ -173,7 +169,6 @@ Happy learning!
 ### ICS & Critical Infrastructure Security
 - [HAI (HIL-based Augmented ICS) Security Dataset](https://github.com/icsdataset/hai) - Industrial control system operational data collected from a testbed augmented with Hardware-In-the-Loop (HIL) simulators. Contains multiple attack scenarios.
 - [WUSTL-IIOT Dataset](https://www.cse.wustl.edu/~jain/iiot/) - A dataset specifically built to emulate real-world industrial systems, focusing on reconnaissance attacks and network scanning in ICS testbeds.
-- [ICS-Security-Tools/pcaps](https://github.com/ICS-Security-Tools/pcaps) - A massive repository containing a wide variety of PCAP files specifically for ICS/SCADA network traffic, including DNP3, Profinet, and Siemens S7Comm.
 
 ### Deepfake & Synthetic Media Detection
 - [DeepfakeBench](https://github.com/SCLBD/DeepfakeBench) - A comprehensive benchmark dataset containing state-of-the-art (SOTA) image and video detection methods for standardized evaluation.
